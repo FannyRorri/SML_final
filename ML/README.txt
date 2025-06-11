@@ -16,3 +16,9 @@ lr, gradient clippping, dt
 collocation point generation not be uniform
 weight initialization
 forward function can be changed
+
+
+LR
+
+with lr = 1e-4, we have constant oscillations between 0.001.. and 0.002.. and an overal negative residual for the PDE of -0.103 till -0.106
+with lr = 1e-5, it starts in the 40.00 and then decreases fast to 0.00 we have oscillations between
